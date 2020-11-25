@@ -20,6 +20,7 @@ Vue.use(BootstrapVue);
 Vue.use(VueGoodTablePlugin);
 Vue.use(VueSweetalert2);
 Vue.use(VueApexCharts);
+
 Vue.use(VueProgressBar, {
   color: "#3998BC",
   failedColor: "#fd397a",
