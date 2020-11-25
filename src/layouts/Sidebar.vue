@@ -13,9 +13,9 @@
     </ul>
     <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
-        <router-link tag="a" class="sidebar__menu__link" to="summary">
-          <i class="la la-chart-bar text-white"></i>
-          <p class="sidebar__menu__link__text text-white mb-0">Summary</p>
+        <router-link tag="a" class="sidebar__menu__link" to="members">
+          <i class="la la-child text-white"></i>
+          <p class="sidebar__menu__link__text text-white mb-0">Members</p>
         </router-link>
       </li>
     </ul>

@@ -34,6 +34,12 @@ const routes: Array<RouteConfig> = [
     name: "Summary",
     component: absoluteUrl("Summary", "Summary"),
     beforeEnter: isAuthenticated
+  },
+  {
+    path: "/members",
+    name: "Members",
+    component: absoluteUrl("Members", "Members"),
+    beforeEnter: isAuthenticated
   }
   // {
   //   path: "*",
