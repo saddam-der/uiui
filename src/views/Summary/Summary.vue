@@ -5,7 +5,7 @@
     <b-row class="mt-8">
       <b-col cols="12" lg="8">
         <ConversationsChart />
-        <InfoCards />
+        
         <ReportChart class="mt-8" />
       </b-col>
       <b-col cols="12" lg="4">
