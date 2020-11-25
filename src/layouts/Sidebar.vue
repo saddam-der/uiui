@@ -46,8 +46,8 @@
     <ul class="sidebar__menu sidebar__menu--secondary">
       <li id="sidebar-tooltip-signout" class="sidebar__menu__item">
         <a class="sidebar__menu__link" @click="signOut">
-          <i class="la la-power-off text-white"></i>
-          <p class="sidebar__menu__link__text text-white mb-0">Logout</p>
+          <i class="la la-power-off text-dark"></i>
+          <p class="sidebar__menu__link__text text-dark mb-0">Logout</p>
         </a>
       </li>
     </ul>
