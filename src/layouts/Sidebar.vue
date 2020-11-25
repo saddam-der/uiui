@@ -29,7 +29,7 @@
     </ul>
      <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
-        <router-link tag="a" class="sidebar__menu__link" to="summary">
+        <router-link tag="a" class="sidebar__menu__link" to="others">
           <i class="la la-dropbox text-white"></i>
           <p class="sidebar__menu__link__text text-white mb-0">Others</p>
         </router-link>
