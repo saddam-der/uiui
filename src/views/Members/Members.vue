@@ -9,9 +9,6 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 
-@Component({
-})
-export default class Members extends Vue {
-  
-}
+@Component({})
+export default class Members extends Vue {}
 </script>

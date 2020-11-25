@@ -40,7 +40,7 @@
 .card1 {
   display: block;
   position: relative;
-  max-width: 262px;
+  max-width: 300px;
   background-color: white;
   border-radius: 4px;
   padding: 32px 24px;
@@ -50,6 +50,8 @@
   overflow: hidden;
   -webkit-animation: fadeIn 400ms ease-in;
           animation: fadeIn 400ms ease-in;
+  -webkit-box-shadow: 0 3px 10px;
+          box-shadow: 0 3px 10px;
 }
 
 .card1:before {

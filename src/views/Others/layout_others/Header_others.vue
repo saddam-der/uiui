@@ -9,7 +9,7 @@
         show=""
       >
         <div class="alert-text text-success">
-         <h1>Test Header Others</h1>
+          <h1>Test Header Others</h1>
         </div>
       </b-alert>
     </b-col>
