@@ -1,0 +1,30 @@
+.channel {
+    margin-bottom: 2rem;
+    &__list {
+        position: relative;
+        &__delete {
+            position: absolute;
+            top: 1.25rem;
+            right: 1.25rem;
+            i {
+                color: $danger;
+                font-size: 24px;
+            }
+        }
+    }
+
+    &__add {
+        position: relative;
+        height: 100%;
+        cursor: pointer;
+
+        i {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 20px;
+            color: $primary;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.form-group {
+    .form-control {
+        &.invalid {
+            border-color: $danger;
+            margin-bottom: .5rem;
+        }
+    }
+    &.required {
+        label {
+            display: inline-block;
+            &::before {
+                content: '*';
+                color: $danger;
+                margin-right: .5rem;
+            }
+        }
+    }
+
+    span {
+        >span {
+            color: $danger;
+            display: block;
+            margin-top: 1rem;
+        }
+    }
+}
+
+.v-select {
+    &.invalid {
+        .vs__dropdown-toggle {
+            border-color: $danger !important;
+        }
+    }
+}

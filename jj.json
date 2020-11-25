@@ -1,0 +1,53 @@
+{
+    "message": "Success",
+    "code": 200,
+    "data": {
+        "pagination": {
+            "total": 69,
+            "total_page": 7,
+            "current_page": 1
+        },
+        "snapshots": [{
+            "description": "Belum menentukan pilihan",
+            "id": 5,
+            "name": "Netral"
+        }, {
+            "description": "Kumpulan pendukung Jokowi",
+            "id": 8,
+            "name": "Pendukung Jokowi"
+        }, {
+            "description": "Kumpulan pendukung Prabowo",
+            "id": 9,
+            "name": "Pendukung Prabowo"
+        }, {
+            "description": "Daftar yang mengusulkan perbaikan jalan",
+            "id": 14,
+            "name": "Program perbaikan jalan"
+        }, {
+            "description": "Daftar yang mengusulkan Membangun tempat ibadah",
+            "id": 15,
+            "name": "Program Membangun tempat ibadah"
+        }, {
+            "description": "Daftar usulan Bantuan pendidikan",
+            "id": 16,
+            "name": "Program Bantuan pendidikan"
+        }, {
+            "description": "Daftar Bantuan kesehatan",
+            "id": 17,
+            "name": "Program Bantuan kesehatan"
+        }, {
+            "description": "Daftar Bantuan sarana olahraga",
+            "id": 18,
+            "name": "Program Bantuan sarana olahraga"
+        }, {
+            "description": "Audience Matamantra Negative",
+            "id": 556,
+            "name": "Matamantra General Test (Negative)"
+        }, {
+            "description": "Audience Matamantra General Test yang Positive",
+            "id": 558,
+            "name": "Matamantra General Test (Positive)"
+        }]
+    },
+    "error": null
+}
