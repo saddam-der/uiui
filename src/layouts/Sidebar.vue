@@ -11,11 +11,35 @@
         </router-link>
       </li>
     </ul>
+     <ul class="sidebar__menu">
+      <li class="sidebar__menu__item">
+        <router-link tag="a" class="sidebar__menu__link" to="summary">
+          <i class="la la-envelope-o text-white"></i>
+          <p class="sidebar__menu__link__text text-white mb-0">Message</p>
+        </router-link>
+      </li>
+    </ul>
     <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
         <router-link tag="a" class="sidebar__menu__link" to="members">
-          <i class="la la-child text-white"></i>
+          <i class="la la-user-plus text-white"></i>
           <p class="sidebar__menu__link__text text-white mb-0">Members</p>
+        </router-link>
+      </li>
+    </ul>
+     <ul class="sidebar__menu">
+      <li class="sidebar__menu__item">
+        <router-link tag="a" class="sidebar__menu__link" to="summary">
+          <i class="la la-dropbox text-white"></i>
+          <p class="sidebar__menu__link__text text-white mb-0">Others</p>
+        </router-link>
+      </li>
+    </ul>
+     <ul class="sidebar__menu">
+      <li class="sidebar__menu__item">
+        <router-link tag="a" class="sidebar__menu__link" to="summary">
+          <i class="la la-users text-white"></i>
+          <p class="sidebar__menu__link__text text-white mb-0">Audiences</p>
         </router-link>
       </li>
     </ul>
