@@ -1,6 +1,5 @@
 <template>
-  <div>
-    <b-container class="bv-example-row">
+  <div>   
       <b-row>
         <b-col cols="12">
           <Header />
@@ -23,7 +22,6 @@
           </center>
         </b-col>
       </b-row>
-    </b-container>
   </div>
 </template>
 
