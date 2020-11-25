@@ -11,7 +11,7 @@
         </router-link>
       </li>
     </ul>
-     <ul class="sidebar__menu">
+    <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
         <router-link tag="a" class="sidebar__menu__link" to="summary">
           <i class="la la-envelope-o text-white"></i>
@@ -27,7 +27,7 @@
         </router-link>
       </li>
     </ul>
-     <ul class="sidebar__menu">
+    <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
         <router-link tag="a" class="sidebar__menu__link" to="summary">
           <i class="la la-dropbox text-white"></i>
@@ -35,9 +35,9 @@
         </router-link>
       </li>
     </ul>
-     <ul class="sidebar__menu">
+    <ul class="sidebar__menu">
       <li class="sidebar__menu__item">
-        <router-link tag="a" class="sidebar__menu__link" to="summary">
+        <router-link tag="a" class="sidebar__menu__link" to="audiences">
           <i class="la la-users text-white"></i>
           <p class="sidebar__menu__link__text text-white mb-0">Audiences</p>
         </router-link>

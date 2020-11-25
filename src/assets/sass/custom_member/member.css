@@ -1,0 +1,10 @@
+.card-member {
+  -webkit-box-shadow: 0 3px 8px -2px grey;
+          box-shadow: 0 3px 8px -2px grey;
+}
+
+.card-member .btn-add-member {
+  float: right;
+  margin-bottom: 15px;
+}
+/*# sourceMappingURL=member.css.map */
