@@ -40,6 +40,12 @@ const routes: Array<RouteConfig> = [
     name: "Members",
     component: absoluteUrl("Members", "Members"),
     beforeEnter: isAuthenticated
+  },
+  {
+    path: "/others",
+    name: "Others",
+    component: absoluteUrl("Others", "Others"),
+    beforeEnter: isAuthenticated
   }
   // {
   //   path: "*",
