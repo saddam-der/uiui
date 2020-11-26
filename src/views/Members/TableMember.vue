@@ -23,6 +23,14 @@
           externalQuery: searchTerm
         }"
       >
+        <template slot="table-row" slot-scope="props">
+          <span v-if="props.column.field == 'action'">
+            <b-button variant="warning">Edit Member</b-button>
+          </span>
+          <span v-else>
+            {{ props.formattedRow[props.column.field] }}
+          </span>
+        </template>
       </vue-good-table>
     </b-card>
   </div>

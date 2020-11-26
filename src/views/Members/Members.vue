@@ -1,10 +1,10 @@
 <template>
   <div>
-    <b-card>
+    <b-card class="card-member">
       <h1 class="text-center">Member List</h1>
       <b-row align-h="end">
         <b-col cols="2">
-          <b-button v-b-modal.add-member variant="warning" class="mb-4">
+          <b-button v-b-modal.add-member variant="primary" class="mb-4">
             Add Member
           </b-button>
         </b-col>
