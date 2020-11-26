@@ -30,7 +30,7 @@
             cursor: pointer;
 
             &:hover {
-                @include setBgColorAndHover($danger);
+                @include setBgColorAndHover(dodgerblue);
             }
 
             i {
