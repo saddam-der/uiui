@@ -1,27 +1,27 @@
 <template>
-  <div>   
-      <b-row>
-        <b-col cols="12">
-          <Header />
-        </b-col>
-      </b-row>
-      <b-row class="mt-4">
-        <b-col cols="4">
-          <center>
-            <Card />
-          </center>
-        </b-col>
-        <b-col cols="4">
-          <center>
-            <Card />
-          </center>
-        </b-col>
-        <b-col cols="4">
-          <center>
-            <Card />
-          </center>
-        </b-col>
-      </b-row>
+  <div>
+    <b-row>
+      <b-col cols="12">
+        <Header />
+      </b-col>
+    </b-row>
+    <b-row class="mt-4">
+      <b-col cols="4">
+        <center>
+          <Card />
+        </center>
+      </b-col>
+      <b-col cols="4">
+        <center>
+          <Card />
+        </center>
+      </b-col>
+      <b-col cols="4">
+        <center>
+          <Card />
+        </center>
+      </b-col>
+    </b-row>
   </div>
 </template>
 
