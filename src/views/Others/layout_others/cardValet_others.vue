@@ -22,7 +22,7 @@
       </center>
     </p>
     <h2>
-      Assignment
+      Valet
     </h2>
     <p>
       <a href="#" class="btn other__item__button rounded-pill button"> View </a>

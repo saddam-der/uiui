@@ -1,14 +1,14 @@
 <template>
-<b-row>
+  <b-row>
     <b-col cols="12">
       <b-alert
         variant="white"
-        class="alert-custom alert-shadow mb-0"
+        class="alert-custom  mb-0 headerOthers"
         role="alert"
         fade
         show=""
       >
-        <div class="alert-text text-success">
+        <div class="alert-text text-primary">
           <h1>Others</h1>
         </div>
       </b-alert>
@@ -26,3 +26,8 @@ import Component from "vue-class-component";
 })
 export default class Others extends Vue {}
 </script>
+<style>
+.headerOthers {
+  box-shadow: 0 3px 5px grey;
+}
+</style>
