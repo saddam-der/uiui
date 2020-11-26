@@ -1,8 +1,28 @@
 <template>
   <div>
-        <vue-good-table
-        :columns="columns"
-        :rows="rows"/>
+    <b-input-group class="mb-3">
+      <b-form-input
+        v-model="searchTerm"
+        aria-label="Email"
+        placeholder="Email..."
+      >
+      </b-form-input>
+      <b-input-group-append>
+        <b-button size="sm" text="Button" variant="success">Search</b-button>
+      </b-input-group-append>
+    </b-input-group>
+    <vue-good-table
+      :columns="columns"
+      :rows="rows"
+      :pagination-options="{
+        enabled: true
+      }"
+      :search-options="{
+        enabled: true,
+        externalQuery: searchTerm
+      }"
+    >
+    </vue-good-table>
   </div>
 </template>
 
@@ -15,43 +35,93 @@ import Component from "vue-class-component";
   components: {}
 })
 export default class TableMember extends Vue {
-  data(){
+  data() {
     return {
+      searchTerm: "",
       columns: [
         {
-          label: 'Name',
-          field: 'name',
+          label: "ID",
+          field: "id",
+          type: "number"
         },
         {
-          label: 'Age',
-          field: 'age',
-          type: 'number',
+          label: "Name",
+          field: "name"
         },
         {
-          label: 'Created On',
-          field: 'createdAt',
-          type: 'date',
-          dateInputFormat: 'yyyy-MM-dd',
-          dateOutputFormat: 'MMM do yy',
+          label: "Group",
+          field: "group"
         },
         {
-          label: 'Percent',
-          field: 'score',
-          type: 'percentage',
+          label: "Role",
+          field: "role"
         },
+        {
+          label: "Email",
+          field: "email"
+        },
+        {
+          label: "Status",
+          field: "status"
+        },
+        {
+          label: "Action",
+          field: "action"
+        }
       ],
       rows: [
-        { id:1, name:"dfdfd", age: 20, createdAt: '',score: 0.03343 },
-        { id:2, name:"Jane", age: 24, createdAt: '2011-10-31', score: 0.03343 },
-        { id:3, name:"Susan", age: 16, createdAt: '2011-10-30', score: 0.03343 },
-        { id:4, name:"Chris", age: 55, createdAt: '2011-10-11', score: 0.03343 },
-        { id:5, name:"Dan", age: 40, createdAt: '2011-10-21', score: 0.03343 },
-        { id:6, name:"John", age: 20, createdAt: '2011-10-31', score: 0.03343 },
-      ],
+        {
+          id: 1,
+          name: "A",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        },
+        {
+          id: 2,
+          name: "B",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        },
+        {
+          id: 3,
+          name: "C",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        },
+        {
+          id: 4,
+          name: "D",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        },
+        {
+          id: 5,
+          name: "E",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        },
+        {
+          id: 6,
+          name: "F",
+          group: "Customer Services Group",
+          role: "STAFF",
+          email: "oke@gmail.com",
+          status: "SUSPEND"
+        }
+      ]
     };
   }
 }
 </script>
 
-<style lang="css">
-</style>
+<style lang="css"></style>

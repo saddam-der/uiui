@@ -1,8 +1,22 @@
 <template>
   <div>
-    <b-card title="Member List" class="text-center card-member">
-      <b-button v-b-modal.modal.add.member variant="warning" class="btn-add-member">Add Member</b-button>
-      <TableMember />
+    <b-card>
+      <h1 class="text-center">Member List</h1>
+      <b-row align-h="end">
+        <b-col cols="2">
+          <b-button v-b-modal.add-member variant="warning" class="mb-4">
+            Add Member
+          </b-button>
+        </b-col>
+      </b-row>
+      <b-modal id="add-member" title="Form Member">
+        <p class="my-4">Hello from modal!</p>
+      </b-modal>
+      <b-row>
+        <b-col>
+          <TableMember />
+        </b-col>
+      </b-row>
     </b-card>
   </div>
 </template>
@@ -12,7 +26,6 @@
 import Vue from "vue";
 import Component from "vue-class-component";
 import TableMember from "@/views/Members/TableMember.vue";
-
 @Component({
   components: {
     TableMember
