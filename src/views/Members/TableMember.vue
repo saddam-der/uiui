@@ -1,28 +1,30 @@
 <template>
   <div>
-    <b-input-group class="mb-3">
-      <b-form-input
-        v-model="searchTerm"
-        aria-label="Email"
-        placeholder="Email..."
+    <b-card>
+      <b-input-group class="mb-3">
+        <b-form-input
+          v-model="searchTerm"
+          aria-label="Email"
+          placeholder="Email..."
+        >
+        </b-form-input>
+        <b-input-group-append>
+          <b-button size="sm" text="Button" variant="success">Search</b-button>
+        </b-input-group-append>
+      </b-input-group>
+      <vue-good-table
+        :columns="columns"
+        :rows="rows"
+        :pagination-options="{
+          enabled: true
+        }"
+        :search-options="{
+          enabled: true,
+          externalQuery: searchTerm
+        }"
       >
-      </b-form-input>
-      <b-input-group-append>
-        <b-button size="sm" text="Button" variant="success">Search</b-button>
-      </b-input-group-append>
-    </b-input-group>
-    <vue-good-table
-      :columns="columns"
-      :rows="rows"
-      :pagination-options="{
-        enabled: true
-      }"
-      :search-options="{
-        enabled: true,
-        externalQuery: searchTerm
-      }"
-    >
-    </vue-good-table>
+      </vue-good-table>
+    </b-card>
   </div>
 </template>
 
