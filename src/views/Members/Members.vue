@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <b-card>
       <h1 class="text-center">Member List</h1>
       <b-row align-h="end">
@@ -19,9 +18,6 @@
         </b-col>
       </b-row>
     </b-card>
-
-    <h1>Members  ssd Tesasdasdt</h1>
-
   </div>
 </template>
 
@@ -29,17 +25,12 @@
 // @ is an alias to /src
 import Vue from "vue";
 import Component from "vue-class-component";
-
 import TableMember from "@/views/Members/TableMember.vue";
 @Component({
   components: {
     TableMember
   }
 })
-
-
-@Component({})
-
 export default class Members extends Vue {}
 </script>
 
