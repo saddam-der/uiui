@@ -1,5 +1,5 @@
 <template>
-  <b-row>
+<b-row>
     <b-col cols="12">
       <b-alert
         variant="white"
@@ -9,7 +9,7 @@
         show=""
       >
         <div class="alert-text text-success">
-         <h1>Test Header Others</h1>
+          <h1>Others</h1>
         </div>
       </b-alert>
     </b-col>
